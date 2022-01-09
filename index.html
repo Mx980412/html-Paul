@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <title>克里斯·保罗</title>
     <style>
         table {
@@ -25,17 +27,29 @@
 </head>
 
 <body>
-    <h1>克里斯·保罗</h1>
+    <h1 id="top">克里斯·保罗</h1>
+    <nav>
+
+        <p>
+            你了解保罗吗?
+            <input name="Paul" type="radio">了解
+            <input name="Paul" type="radio">不了解
+        </p>
+        <ol>
+            <li><a href="#paul">个人简介</a></li>
+            <li><a href="#events">重要事件</a></li>
+            <li><a href="#awards">成就和荣誉</a></li>
+            <li><a href="#information">重要数据</a></li>
+            <li><a href="#pictures">生活照</a></li>
+            <li><a href="#life">生平</a></li>
+        </ol>
+    </nav>
+    <h2 id="paul">个人简介</h2>
     <p>
-        <strong>克里斯·保罗</strong>出生于1985年5月6日-美国职业篮球运动员，绰号“CP3”、“蜂王”、“船长”，并被誉为“控卫之神”。目前效力于NBA<em>菲尼克斯太阳</em>，场上位置为控球后卫。
+        <strong>克里斯·保罗</strong>出生于1985年5月6日-美国职业篮球运动员，绰号“CP3”、“蜂王”、“船长”，并被誉为“控卫之神”。
     </p>
-    <h3>前言</h3>
-    <p>
-        你了解保罗吗?
-        <input name="Paul" type="radio">了解
-        <input name="Paul" type="radio">不了解
-    </p>
-    <h2>
+    <p>目前效力于NBA<em>菲尼克斯太阳</em>，场上位置为控球后卫。</p>
+    <h2 id="events">
         重要事件
     </h2>
     <ul>
@@ -46,7 +60,7 @@
         <li>2020–21年:首度闯进总冠军赛，仍与之失之交臂。</li>
         <li>根据《福布斯》，保罗是2020年年收入全球排名第35位的运动员（35,000,000美元）。</li>
     </ul>
-    <h2>
+    <h2 id="awards">
         成就和荣誉
     </h2>
     <ol>
@@ -63,7 +77,7 @@
         <li>NBA最佳新秀1次</li>
         <li>曾入选美国国家男子篮球队，并帮助美国队获得了2008年北京奥运会男子篮球金牌、2012年伦敦奥运会男子篮球金牌以及2006年世界男子篮球锦标赛铜牌。</li>
     </ol>
-    <h2>重要数据</h2>
+    <h2 id="information">重要数据</h2>
     <table>
         <caption>国家队数据</caption>
         <thead>
@@ -136,13 +150,13 @@
         </tbody>
     </table>
 
-    <h2>生活照</h2>
-    <div><img width="1000" src="image/1.jpg" alt="图一"></div>
-    <div><img width="1000" src="image/2.jpg" alt="图二"></div>
-    <div><img width="1000" src="image/3.jpg" alt="图三"></div>
-    <div><img width="1000" src="image/4.jpg" alt="图四"></div>
+    <h2 id="pictures">生活照</h2>
+    <div><a href="image/1.jpg" target="_blank"><img width="1000" src="image/1.jpg" alt="图一"></a></div>
+    <div><a href="image/2.jpg" target="_blank"><img width="1000" src="image/2.jpg" alt="图二"></a></div>
+    <div><a href="image/3.jpg" target="_blank"><img width="1000" src="image/3.jpg" alt="图三"></a></div>
+    <div><a href="image/3.jpg" target="_blank"><img width="1000" src="image/4.jpg" alt="图四"></a></div>
 
-    <h2>私人生活</h2>
+    <h2 id="life">生平</h2>
     <p>
         保罗很喜欢打保龄球，他在2007年被美国保龄球协会获邀成为官方的年轻代言人。同时，他还是保龄球队LAX的老板。
     </p>
@@ -152,7 +166,7 @@
     <p>
         保罗为了运动生涯改变了饮食习惯，以素食为主。
     </p>
-
+    <a href="#top">返回顶部</a>
 
 </body>
 
