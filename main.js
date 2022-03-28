@@ -4,3 +4,4 @@ xxx.onload = function () {
         xxx.onerror = function () {
             console.log('图片加载失败');
         }
+        
